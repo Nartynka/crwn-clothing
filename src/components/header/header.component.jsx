@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { ReactComponent as Logo } from '../../assets/crown.svg';
-import Cart from '../cart/cart.component';
 
 import './header.styles.scss';
 
@@ -18,7 +17,7 @@ const Header = () => (
 			<Link to='/contact' className='option'>
 				CONTACT
 			</Link>
-			<Link to='/sign' className='option'>
+			<Link to='/signin' className='option'>
 				SIGN IN
 			</Link>
 		</ul>
