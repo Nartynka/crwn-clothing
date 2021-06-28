@@ -1,6 +1,7 @@
 import React from 'react';
 
 import FormInput from '../form-input/form-input.component';
+import CustomButton from '../custom-button/custom-button.component'
 
 class SignIn extends React.Component {
 	constructor(props) {
@@ -23,9 +24,11 @@ class SignIn extends React.Component {
 
 	render() {
 		return (
-			<div>
-				<h1>Aleready have account</h1>
-				<form onSubmit={this.chandleSubmit}>
+			<div className="sign-in">
+				<h2>I aleready have an account</h2>
+				<span>Log in with email and password</span>
+				
+				<form onSubmit={this.handleSubmit}>
 					<FormInput
 						name='email'
 						type='email'
@@ -42,7 +45,7 @@ class SignIn extends React.Component {
 						label='password'
 						required
 					/>
-					<input type='submit' value='submit' />
+					<CustomButton type="submit">Sign in</CustomButton>
 				</form>
 			</div>
 		);
