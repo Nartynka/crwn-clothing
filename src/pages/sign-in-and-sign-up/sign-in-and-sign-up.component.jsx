@@ -7,7 +7,7 @@ import './sign-in-and-sign-up.styles.scss'
 
 const SignInAndSignUp = () => {
    return (
-      <div className="container">
+      <div className="sign-in-and-sign-up">
          <SignIn />
          <SignUp />
       </div>

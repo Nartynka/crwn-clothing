@@ -3,6 +3,8 @@ import React from 'react';
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component'
 
+import './sign-up.styles.scss'
+
 class SignUp extends React.Component {
 	constructor(props) {
 		super(props);
@@ -25,7 +27,7 @@ class SignUp extends React.Component {
 	render() {
 		return (
 			<div className="sign-up">
-				<h2>Don't have account yet?</h2>
+				<h2 className="title">Don't have account yet?</h2>
 				<span>Create account here</span>
 				<form onSubmit={this.handleSubmit}>
 					<FormInput
