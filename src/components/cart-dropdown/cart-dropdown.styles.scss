@@ -7,8 +7,8 @@
    padding: 20px;
    border: 1px solid black;
    background-color: white;
-   top: 90px;
-   right: 40px;
+   top: 100px;
+   right: 68px;
    z-index: 5;
  
    .cart-items {
@@ -18,6 +18,11 @@
      overflow: auto;
    }
  
+   .empty-message {
+    font-size: 18px;
+    margin: 50px auto;
+   }
+
    button {
      margin-top: auto;
    }
