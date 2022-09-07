@@ -6,6 +6,7 @@ crwn-clothing is a fake e-commerce app that is used to learn about React. It is 
 
 * [Features](#features)
 * [Technologies](#technologies)
+* [Screenshots](#screenshots)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
@@ -29,6 +30,11 @@ crwn-clothing is a fake e-commerce app that is used to learn about React. It is 
 - Firebase
 - Stripe
 - Sass
+
+## Screenshots
+![Home Page Screenshot](screenshots/home_page.png)
+![Shop Page Screenshot](screenshots/shop.png)
+![Checkout Page Screenshot](screenshots/checkout.png)
 
 ## Installation
 
